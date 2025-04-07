@@ -4,10 +4,13 @@ Secure Password Manager using Python and Tkinter
 
 👨‍💻 Developed By:
 Amit Satappa Pawar
+
 MCA Intern – YBI Foundation
+
 Internship Domain: Python Programming
 
 🔧 Technologies Used:
+
 Python 3
 
 Tkinter (GUI)
@@ -19,9 +22,12 @@ JSON, CSV
 File handling
 
 🎯 Objective:
+
 To develop a GUI-based Password Manager that allows users to securely store, search, and export login credentials using encryption. The application includes a Master Password login for enhanced security.
 
+
 ✅ Features:
+
 🔐 Master Password for access
 
 🗂️ Add / Search / View saved credentials
@@ -43,6 +49,7 @@ PasswordManager/
 
 
 🛡️ How Security is Implemented:
+
 Credentials are stored in an encrypted file (credentials.enc)
 
 Uses Fernet encryption from the cryptography library
@@ -53,6 +60,7 @@ App access is protected with a Master Password
 
 
 ▶️ How to Run the App:
+
 Install dependencies:
 
 pip install cryptography
